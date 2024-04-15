@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-
 import Vector from "../assets/Vector.svg";
 import Menu from "../assets/mobile_bar.png";
 import Close from "../assets/close.png";
@@ -39,13 +38,12 @@ export default function LandingPage(props) {
         >
           <div className="flex">
             <h1 className="text-rp-yellow text-3xl font-semibold pt-4">
-              Expense Tracker
+            BudgetBuddy
             </h1>
             <button
               className=" ml-auto mt-4 bg-mj-yellow rounded-md "
               onClick={() => setIsMobile(!isMobile)}
             >
-              {/* <h1 className="text-mj-black">jayesh patil</h1> */}
               {isMobile ? (
                 <img src={Menu} className="h-10 w-10 p-2 "></img>
               ) : (
