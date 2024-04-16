@@ -73,7 +73,7 @@ export default function SetBudget(props) {
               onClick={HandleSetBudget}
               className="p-2 px-3 rounded-lg font-bold text-rp-yellow"
             >
-              Save Buget
+              Save Budget
             </button>
           )}
         </div>

@@ -53,7 +53,7 @@ export default function DashBoard(props) {
               <ul className="cursor-pointer">
                 <li className="px-2 mt-2 py-1">
                   <h1 className="lg:text-3xl text-lg font-bold">
-                    BugdetBuddy
+                    Expense Tracker
                   </h1>
                 </li>
               </ul>

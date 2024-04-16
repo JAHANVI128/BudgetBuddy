@@ -38,7 +38,7 @@ export default function LandingPage(props) {
         >
           <div className="flex">
             <h1 className="text-rp-yellow text-3xl font-semibold pt-4">
-            BudgetBuddy
+              Expense Tracker
             </h1>
             <button
               className=" ml-auto mt-4 bg-mj-yellow rounded-md "
